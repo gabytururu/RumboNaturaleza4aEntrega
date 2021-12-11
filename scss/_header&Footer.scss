@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+// --------------- Header --------------- //Estilo 100% bootstrap 
+
+// --------------- Footer --------------- //
+
+.footerGrad {
+    text-align: center;
+    padding: 8px 0px 25px 0px;
+    background-image:linear-gradient(to right, rgba(165, 42, 42), rgba(165, 42, 42, .1));   
+    
+    &__piePagP {
+        padding: 1px;
+        margin-top: 10px;
+    }
+}
+
+
+ 

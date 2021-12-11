@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  color: #7dfde8;
+}
+
+h2 {
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 250%;
+}
+
+h3 {
+  font-family: "Spectral", serif;
+  font-style: italic;
+  line-height: 3.5;
+  color: #229c88;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.titulosSitio {
+  text-align: center;
+}
+.titulosSitio__h1 {
+  font-size: 80px;
+  padding-top: 70px;
+  color: black;
+}
+.titulosSitio__h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footerGrad {
+  text-align: center;
+  padding: 8px 0px 25px 0px;
+  background-image: linear-gradient(to right, brown, rgba(165, 42, 42, 0.1));
+}
+.footerGrad__piePagP {
+  padding: 1px;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.frontPageBanner {
+  height: 95vh;
+  background-image: url("../imagenes/portada.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 750px;
+  font-size: 20px;
+}
+.bannerContent__Marca {
+  font-family: "Spectral", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 600%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #7dfde8;
+}
+.bannerContent__Msj {
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 250%;
+}
+.bannerContent:hover {
+  font-size: 100%;
+}
+
+.callout {
+  overflow: hidden;
+}
+
+.callout .calloutTitulo {
+  margin: 50px 45px 20px 45px;
+}
+
+.callout__calloutContent {
+  background-color: rgba(165, 42, 42, 0.493);
+  margin: 50px 45px 20px 45px;
+  height: 100px;
+  padding: 30px 30px 40px 30px;
+  border-radius: 15px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.ofertasHomebox {
+  margin: 60px 35px 0px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titulosHomeBox {
+  margin: 15px;
+  background-color: rgba(165, 42, 42, 0.1);
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+  color: black;
+  flex: 1 1 300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.actividades {
+  display: flex;
+}
+
+.opcionesAct {
+  position: relative;
+  overflow: hidden;
+  margin: 75px 20px 10px 20px;
+  width: 90vw;
+  height: auto;
+  padding: 1rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  font-style: bold;
+  color: white;
+}
+
+.opcionesAct .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-style: bold;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+}
+
+.opcionesAct:hover .overlay {
+  opacity: 1;
+}
+
+.detallesActs {
+  position: absolute;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.opcionesAct:hover .detallesActs {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.reservaciones {
+  display: flex;
+}
+.reservaciones__detalles {
+  margin: 10px 20px 10px 20px;
+  width: 90vw;
+  height: auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: rgba(165, 42, 42, 0.493);
+  color: black;
+}
+.reservaciones__boton {
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid burlywood;
+  font: 700 13px/18px Helvetica, arial;
+}
+.reservaciones__boton:hover {
+  background-color: brown;
+  font-size: 2rem;
+}
+
+.image {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.galeriaImg {
+  display: grid;
+  grid-template-columns: repeat 30% auto 30%;
+  grid-template-rows: 250px 250px 250px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
+  background-color: whitesmoke;
+  border: solid 2px black;
+  padding: 80px 20px 80px 20px;
+  background: black;
+  opacity: 1;
+}
+.galeriaImg__foto1 {
+  grid-area: foto1;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto1:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto2 {
+  grid-area: foto2;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto2:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto3 {
+  grid-area: foto3;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto3:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto4 {
+  grid-area: foto4;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto4:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto5 {
+  grid-area: foto5;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto5:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto6 {
+  grid-area: foto6;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto6:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto7 {
+  grid-area: foto7;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto7:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto8 {
+  grid-area: foto8;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto8:hover {
+  opacity: 0.2;
+}
+.galeriaImg__foto9 {
+  grid-area: foto9;
+  border: solid 2px black;
+  background-image: url("../imagenes/portFondo.png");
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+.galeriaImg__foto9:hover {
+  opacity: 0.2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

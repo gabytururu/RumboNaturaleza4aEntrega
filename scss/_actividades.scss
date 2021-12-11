@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+
+
+.actividades {
+    display:flex;
+    
+}
+
+.opcionesAct {
+    position:relative;
+    overflow: hidden;
+    margin: 75px 20px 10px 20px;
+    width: 90vw;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    font-style: bold;    
+    color: white  
+    
+}
+.opcionesAct .overlay{
+    position:absolute;
+    height: 100%;
+    width: 100%;   
+    font-style: bold;
+    background: rgba(0,0,0,0.7);
+    opacity:0
+}
+
+.opcionesAct:hover .overlay{
+    opacity:1;
+}
+
+.detallesActs{
+    position: absolute;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.opcionesAct:hover .detallesActs{
+    top: 50%;
+    left: 50%;
+    opacity:1;
+}
+
+
+////////////////// Actividades (Boton "Reserva Ya")  ///////////////////////////////
+.reservaciones {
+    display: flex; 
+    
+    &__detalles {    
+        margin: 10px 20px 10px 20px;   
+        width: 90vw;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 10px;
+        background: $caja-roja;
+        color: black;
+    }
+
+    &__boton {
+        border-radius: 5px;
+        padding: 7px;
+        border: 1px solid burlywood;   
+        font: 700 13px/18px Helvetica, arial;
+    
+        &:hover {
+            background-color: $button-bckg;
+            font-size: $agrandarCallout-font;
+        }
+    }
+
+}
+////////////////////////////////////////////////////////////////////////////
+
+.image {
+    width: 100%;    
+}

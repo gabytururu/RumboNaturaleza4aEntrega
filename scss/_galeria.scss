@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+.galeriaImg {
+    display:grid;
+    grid-template-columns: repeat 30% auto 30%;
+    grid-template-rows: 250px 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+        "foto1 foto2 foto3"
+        "foto4 foto5 foto6"
+        "foto7 foto8 foto9";
+    background-color: whitesmoke;
+    border: solid 2px black;  
+    padding: 80px 20px 80px 20px;    
+
+    background: black;
+    opacity: 1;  
+        
+        &__foto1{
+            grid-area: foto1;  
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;  
+           
+            &:hover {                            
+                opacity: 0.2;
+            }        
+        }
+    
+        &__foto2 {
+            grid-area: foto2;
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;
+    
+            &:hover {                            
+                opacity: 0.2;
+            }        
+        }
+    
+        &__foto3 {
+            grid-area: foto3; 
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;  
+            
+            &:hover {                            
+                opacity: 0.2;
+            }   
+        }
+    
+        &__foto4 {
+            grid-area: foto4;  
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;
+    
+            &:hover {                            
+                opacity: 0.2;
+            }   
+        }
+    
+        &__foto5 {
+            grid-area: foto5;
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;
+    
+            &:hover {                            
+                opacity: 0.2;
+            } 
+        }  
+    
+        &__foto6 {
+            grid-area: foto6;
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color:white;
+    
+            &:hover {                            
+                opacity: 0.2;
+            }   
+        }
+    
+        &__foto7 {
+            grid-area: foto7;
+            border: solid 2px black;
+            background-image: url("../imagenes/portFondo.png");
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color:white;
+    
+            &:hover {                            
+                opacity: 0.2;
+            }   
+        }
+    
+        &__foto8 {
+            grid-area: foto8;
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");
+            text-align: center;
+            justify-items: center;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white; 
+    
+            &:hover {                            
+                opacity: 0.2;
+            } 
+        }  
+    
+        &__foto9 {
+            grid-area: foto9;
+            border: solid 2px black;
+            background-image:url("../imagenes/portFondo.png");   
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            color: white;
+            
+            &:hover {                            
+                opacity: 0.2;
+            }   
+        }
+    }

@@ -1,0 +1,11 @@
+{
+  "name": "rumbonat_gmorales_d14_sass1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "author": "Gabriela Morales",
+  "license": "ISC"
+}
