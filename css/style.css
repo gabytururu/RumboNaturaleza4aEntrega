@@ -155,8 +155,7 @@ p {
 .actividades {
   display: flex;
 }
-
-.opcionesAct {
+.actividades__opcionesAct {
   position: relative;
   overflow: hidden;
   margin: 75px 20px 10px 20px;
@@ -168,8 +167,7 @@ p {
   font-style: bold;
   color: white;
 }
-
-.opcionesAct .overlay {
+.actividades__overlay {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -177,12 +175,10 @@ p {
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
 }
-
-.opcionesAct:hover .overlay {
+.actividades__overlay:hover {
   opacity: 1;
 }
-
-.detallesActs {
+.actividades__detallesActs {
   position: absolute;
   text-align: center;
   padding-left: 5%;
@@ -193,8 +189,7 @@ p {
   opacity: 0;
   transform: translate(-50%, -50%);
 }
-
-.opcionesAct:hover .detallesActs {
+.actividades__detallesActs:hover {
   top: 50%;
   left: 50%;
   opacity: 1;
@@ -213,18 +208,15 @@ p {
   color: black;
 }
 .reservaciones__boton {
+  background-color: royalblue;
   border-radius: 5px;
-  padding: 7px;
+  padding: 10px;
   border: 1px solid burlywood;
   font: 700 13px/18px Helvetica, arial;
 }
 .reservaciones__boton:hover {
-  background-color: brown;
+  background-color: royalblue;
   font-size: 2rem;
-}
-
-.image {
-  width: 100%;
 }
 
 * {
@@ -346,6 +338,12 @@ p {
 * {
   margin: 0;
   padding: 0;
+}
+
+.boton {
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 * {
